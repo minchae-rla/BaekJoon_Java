@@ -29,8 +29,8 @@ public class BeakJoon_10813 {
 			arr[J-1] = num;		
 		}
 
-		for(int x = 0 ; x < arr.length ; x++) {
-			System.out.print(arr[x] + " ");
+		for(int i = 0 ; i < arr.length ; i++) {
+			System.out.print(arr[i] + " ");
 		}
 	}
 }
