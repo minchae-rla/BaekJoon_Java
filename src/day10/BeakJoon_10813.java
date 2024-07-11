@@ -15,18 +15,18 @@ public class BeakJoon_10813 {
 		int M = sc.nextInt();
 		int[] arr = new int[N];
 
-		for(int x = 0 ; x < arr.length ; x++) {
-			arr[x] = x+1;
+		for(int i = 0 ; i < arr.length ; i++) {
+			arr[i] = i + 1;
 		}
 		
 		// 공 바꾸는 횟수
-		for(int x = 0 ; x < M ; x++) {
-			int i = sc.nextInt();
-			int j = sc.nextInt();
+		for(int i = 0 ; i < M ; i++) {
+			int I = sc.nextInt();
+			int J = sc.nextInt();
 
-			int num = arr[i-1];
-			arr[i-1] = arr[j-1];
-			arr[j-1] = num;		
+			int num = arr[I-1];
+			arr[I-1] = arr[J-1];
+			arr[J-1] = num;		
 		}
 
 		for(int x = 0 ; x < arr.length ; x++) {
