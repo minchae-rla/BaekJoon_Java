@@ -1,6 +1,5 @@
 package day11;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class BaekJoon_1546 {
