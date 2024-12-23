@@ -2,7 +2,7 @@ package day34;
 
 import java.util.Scanner;
 
-public class Main {
+public class BaekJoon_24313 {
 	public static void main(String[] args) {
 		//문제번호.24313
 	    Scanner sc = new Scanner(System.in);
